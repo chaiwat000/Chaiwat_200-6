@@ -90,9 +90,9 @@ Partial Class Frm_LAP2
         Me.lblVistra.AutoSize = True
         Me.lblVistra.Location = New System.Drawing.Point(25, 136)
         Me.lblVistra.Name = "lblVistra"
-        Me.lblVistra.Size = New System.Drawing.Size(164, 22)
+        Me.lblVistra.Size = New System.Drawing.Size(195, 22)
         Me.lblVistra.TabIndex = 5
-        Me.lblVistra.Text = "ยอด  Vistra Gluta  ="
+        Me.lblVistra.Text = "ยอดขาย  Vistra Gluta  ="
         '
         'Label5
         '
@@ -149,9 +149,9 @@ Partial Class Frm_LAP2
         Me.lblFrista.AutoSize = True
         Me.lblFrista.Location = New System.Drawing.Point(25, 170)
         Me.lblFrista.Name = "lblFrista"
-        Me.lblFrista.Size = New System.Drawing.Size(162, 22)
+        Me.lblFrista.Size = New System.Drawing.Size(193, 22)
         Me.lblFrista.TabIndex = 11
-        Me.lblFrista.Text = "ยอด  Frista Gluta  ="
+        Me.lblFrista.Text = "ยอดขาย  Frista Gluta  ="
         '
         'Label9
         '
@@ -168,9 +168,9 @@ Partial Class Frm_LAP2
         Me.lblSumVisAndFris.AutoSize = True
         Me.lblSumVisAndFris.Location = New System.Drawing.Point(29, 336)
         Me.lblSumVisAndFris.Name = "lblSumVisAndFris"
-        Me.lblSumVisAndFris.Size = New System.Drawing.Size(223, 22)
+        Me.lblSumVisAndFris.Size = New System.Drawing.Size(254, 22)
         Me.lblSumVisAndFris.TabIndex = 13
-        Me.lblSumVisAndFris.Text = "รวมยอด Vistra และ Frista   ="
+        Me.lblSumVisAndFris.Text = "รวมยอดขาย Vistra และ Frista   ="
         '
         'lblSumCom
         '
@@ -205,6 +205,7 @@ Partial Class Frm_LAP2
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Margin = New System.Windows.Forms.Padding(5)
         Me.Name = "Frm_LAP2"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "โปรแกรมคำนวณ"
         Me.ResumeLayout(False)
         Me.PerformLayout()

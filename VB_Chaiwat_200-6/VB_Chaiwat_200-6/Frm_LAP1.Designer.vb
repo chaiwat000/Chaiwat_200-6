@@ -123,10 +123,12 @@ Partial Class Frm_LAP1
         Me.Controls.Add(Me.txtSalary)
         Me.Controls.Add(Me.btnClose)
         Me.Controls.Add(Me.btnCalculate)
+        Me.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
-        Me.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.Margin = New System.Windows.Forms.Padding(5)
         Me.Name = "Frm_LAP1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "โปรแกรมคำนวณ"
         Me.ResumeLayout(False)
         Me.PerformLayout()
