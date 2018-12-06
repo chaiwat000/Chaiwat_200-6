@@ -72,6 +72,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmLap_1.Designer.vb">
+      <DependentUpon>frmLap_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLap_1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Frm_LAP1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +108,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmLap_1.resx">
+      <DependentUpon>frmLap_1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_LAP1.resx">
       <DependentUpon>Frm_LAP1.vb</DependentUpon>
     </EmbeddedResource>

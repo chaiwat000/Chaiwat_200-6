@@ -108,7 +108,7 @@ Partial Class Frm_LAP1
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(124, 22)
         Me.Label2.TabIndex = 7
-        Me.Label2.Text = "Input Salary >"
+        Me.Label2.Text = "Input Salary ="
         '
         'Frm_LAP1
         '
@@ -129,7 +129,7 @@ Partial Class Frm_LAP1
         Me.Margin = New System.Windows.Forms.Padding(5)
         Me.Name = "Frm_LAP1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "โปรแกรมคำนวณ"
+        Me.Text = "."
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

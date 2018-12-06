@@ -1,23 +1,22 @@
 ﻿Public Class Frm_LAP2
     Private Sub btnCal_Click(sender As Object, e As EventArgs) Handles btnCal.Click
-        Dim Vis As Double = txtVista.Text
-        Dim Fris As Double = txtFrista.Text
-        Dim ComVis As Double
-        Dim ComFris As Double
-        Dim SumProduct As Double
-        Dim SumCom As Double
+        Dim GluVis, ComToshi, totalsel, totalCommit, commitGluVis, commitCom As Double
 
-        ComVis = Vis * 0.05
-        ComFris = Fris * 0.1
-        SumCom = ComVis + ComFris
-        SumProduct = Vis + Fris
+        GluVis = txtVista.Text
+        ComToshi = txtComToshiba.Text
 
-        lblVistra.Text += "  " + Vis.ToString("###,###,###,###")
-        lblFrista.Text += "  " + Fris.ToString("###,###,###,###")
-        lblComVis.Text += "  " + ComVis.ToString("###,###,###,###")
-        lblComFris.Text += "  " + ComFris.ToString("###,###,###,###")
-        lblSumVisAndFris.Text += "  " + SumProduct.ToString("###,###,###,###")
-        lblSumCom.Text += "  " + SumCom.ToString("###,###,###,###")
+        totalsel = Val(GluVis) + Val(ComToshi)
+        commitGluVis = Val(GluVis) * 0.05
+        commitCom = Val(ComToshi) * 0.1
+        totalCommit = Val(commitGluVis) + Val(ComToshi)
+
+
+        lblVistra.Text += "  " + GluVis.ToString("###,###,###,###")
+        lblComtoshi.Text += "  " + ComToshi.ToString("###,###,###,###")
+        lblComVis.Text += "  " + commitGluVis.ToString("###,###,###,###")
+        lblComshi.Text += "  " + commitCom.ToString("###,###,###,###")
+        lblSumsell.Text += "  " + totalsel.ToString("###,###,###,###")
+        lblSumCom.Text += "  " + totalCommit.ToString("###,###,###,###")
 
     End Sub
 

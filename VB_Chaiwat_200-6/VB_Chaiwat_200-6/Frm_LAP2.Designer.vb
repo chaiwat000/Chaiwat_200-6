@@ -24,18 +24,18 @@ Partial Class Frm_LAP2
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txtVista = New System.Windows.Forms.TextBox()
-        Me.txtFrista = New System.Windows.Forms.TextBox()
+        Me.txtComToshiba = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.lblVistra = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.lblComVis = New System.Windows.Forms.Label()
-        Me.lblComFris = New System.Windows.Forms.Label()
+        Me.lblComshi = New System.Windows.Forms.Label()
         Me.btnCal = New System.Windows.Forms.Button()
         Me.btnClose = New System.Windows.Forms.Button()
-        Me.lblFrista = New System.Windows.Forms.Label()
+        Me.lblComtoshi = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.lblSumVisAndFris = New System.Windows.Forms.Label()
+        Me.lblSumsell = New System.Windows.Forms.Label()
         Me.lblSumCom = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
@@ -59,13 +59,13 @@ Partial Class Frm_LAP2
         Me.txtVista.TabIndex = 1
         Me.txtVista.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
-        'txtFrista
+        'txtComToshiba
         '
-        Me.txtFrista.Location = New System.Drawing.Point(214, 89)
-        Me.txtFrista.Name = "txtFrista"
-        Me.txtFrista.Size = New System.Drawing.Size(100, 28)
-        Me.txtFrista.TabIndex = 2
-        Me.txtFrista.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.txtComToshiba.Location = New System.Drawing.Point(296, 92)
+        Me.txtComToshiba.Name = "txtComToshiba"
+        Me.txtComToshiba.Size = New System.Drawing.Size(100, 28)
+        Me.txtComToshiba.TabIndex = 2
+        Me.txtComToshiba.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Label2
         '
@@ -79,11 +79,11 @@ Partial Class Frm_LAP2
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(69, 92)
+        Me.Label3.Location = New System.Drawing.Point(12, 95)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(135, 22)
+        Me.Label3.Size = New System.Drawing.Size(278, 22)
         Me.Label3.TabIndex = 4
-        Me.Label3.Text = "Frista Gluta    ="
+        Me.Label3.Text = " Computer Toshiba Extra520x   ="
         '
         'lblVistra
         '
@@ -113,14 +113,14 @@ Partial Class Frm_LAP2
         Me.lblComVis.TabIndex = 7
         Me.lblComVis.Text = "Vistra Gluta  ="
         '
-        'lblComFris
+        'lblComshi
         '
-        Me.lblComFris.AutoSize = True
-        Me.lblComFris.Location = New System.Drawing.Point(25, 266)
-        Me.lblComFris.Name = "lblComFris"
-        Me.lblComFris.Size = New System.Drawing.Size(125, 22)
-        Me.lblComFris.TabIndex = 8
-        Me.lblComFris.Text = "Frista Gluta  ="
+        Me.lblComshi.AutoSize = True
+        Me.lblComshi.Location = New System.Drawing.Point(25, 266)
+        Me.lblComshi.Name = "lblComshi"
+        Me.lblComshi.Size = New System.Drawing.Size(268, 22)
+        Me.lblComshi.TabIndex = 8
+        Me.lblComshi.Text = "Computer Toshiba Extra520x  ="
         '
         'btnCal
         '
@@ -144,14 +144,14 @@ Partial Class Frm_LAP2
         Me.btnClose.Text = "ปิด"
         Me.btnClose.UseVisualStyleBackColor = False
         '
-        'lblFrista
+        'lblComtoshi
         '
-        Me.lblFrista.AutoSize = True
-        Me.lblFrista.Location = New System.Drawing.Point(25, 170)
-        Me.lblFrista.Name = "lblFrista"
-        Me.lblFrista.Size = New System.Drawing.Size(193, 22)
-        Me.lblFrista.TabIndex = 11
-        Me.lblFrista.Text = "ยอดขาย  Frista Gluta  ="
+        Me.lblComtoshi.AutoSize = True
+        Me.lblComtoshi.Location = New System.Drawing.Point(25, 170)
+        Me.lblComtoshi.Name = "lblComtoshi"
+        Me.lblComtoshi.Size = New System.Drawing.Size(331, 22)
+        Me.lblComtoshi.TabIndex = 11
+        Me.lblComtoshi.Text = "ยอดขาย  Computer Toshiba Extra520x ="
         '
         'Label9
         '
@@ -163,14 +163,14 @@ Partial Class Frm_LAP2
         Me.Label9.TabIndex = 12
         Me.Label9.Text = "ผลลัพธ์รวม"
         '
-        'lblSumVisAndFris
+        'lblSumsell
         '
-        Me.lblSumVisAndFris.AutoSize = True
-        Me.lblSumVisAndFris.Location = New System.Drawing.Point(29, 336)
-        Me.lblSumVisAndFris.Name = "lblSumVisAndFris"
-        Me.lblSumVisAndFris.Size = New System.Drawing.Size(254, 22)
-        Me.lblSumVisAndFris.TabIndex = 13
-        Me.lblSumVisAndFris.Text = "รวมยอดขาย Vistra และ Frista   ="
+        Me.lblSumsell.AutoSize = True
+        Me.lblSumsell.Location = New System.Drawing.Point(29, 336)
+        Me.lblSumsell.Name = "lblSumsell"
+        Me.lblSumsell.Size = New System.Drawing.Size(147, 22)
+        Me.lblSumsell.TabIndex = 13
+        Me.lblSumsell.Text = "รวมยอดขายรวม   ="
         '
         'lblSumCom
         '
@@ -187,18 +187,18 @@ Partial Class Frm_LAP2
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(399, 457)
         Me.Controls.Add(Me.lblSumCom)
-        Me.Controls.Add(Me.lblSumVisAndFris)
+        Me.Controls.Add(Me.lblSumsell)
         Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.lblFrista)
+        Me.Controls.Add(Me.lblComtoshi)
         Me.Controls.Add(Me.btnClose)
         Me.Controls.Add(Me.btnCal)
-        Me.Controls.Add(Me.lblComFris)
+        Me.Controls.Add(Me.lblComshi)
         Me.Controls.Add(Me.lblComVis)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.lblVistra)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.txtFrista)
+        Me.Controls.Add(Me.txtComToshiba)
         Me.Controls.Add(Me.txtVista)
         Me.Controls.Add(Me.Label1)
         Me.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -214,17 +214,17 @@ Partial Class Frm_LAP2
 
     Friend WithEvents Label1 As Label
     Friend WithEvents txtVista As TextBox
-    Friend WithEvents txtFrista As TextBox
+    Friend WithEvents txtComToshiba As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents lblVistra As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents lblComVis As Label
-    Friend WithEvents lblComFris As Label
+    Friend WithEvents lblComshi As Label
     Friend WithEvents btnCal As Button
     Friend WithEvents btnClose As Button
-    Friend WithEvents lblFrista As Label
+    Friend WithEvents lblComtoshi As Label
     Friend WithEvents Label9 As Label
-    Friend WithEvents lblSumVisAndFris As Label
+    Friend WithEvents lblSumsell As Label
     Friend WithEvents lblSumCom As Label
 End Class
