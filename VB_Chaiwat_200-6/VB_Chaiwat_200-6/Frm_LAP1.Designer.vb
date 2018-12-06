@@ -129,7 +129,7 @@ Partial Class Frm_LAP1
         Me.Margin = New System.Windows.Forms.Padding(5)
         Me.Name = "Frm_LAP1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "."
+        Me.Text = "โปรแกรมคำนวณ"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
