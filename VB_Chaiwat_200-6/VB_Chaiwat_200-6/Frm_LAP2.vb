@@ -8,7 +8,7 @@
         totalsel = Val(GluVis) + Val(ComToshi)
         commitGluVis = Val(GluVis) * 0.05
         commitCom = Val(ComToshi) * 0.1
-        totalCommit = Val(commitGluVis) + Val(ComToshi)
+        totalCommit = commitGluVis + commitCom
 
 
         lblVistra.Text += "  " + GluVis.ToString("###,###,###,###")
