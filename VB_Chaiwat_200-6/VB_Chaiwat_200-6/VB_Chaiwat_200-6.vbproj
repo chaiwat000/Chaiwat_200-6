@@ -72,6 +72,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frm_LAP4.Designer.vb">
+      <DependentUpon>frm_LAP4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_LAP4.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmLap_1.Designer.vb">
       <DependentUpon>frmLap_1.vb</DependentUpon>
     </Compile>
@@ -91,10 +97,16 @@
     <Compile Include="Frm_LAP2.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmAssign3.Designer.vb">
-      <DependentUpon>frmAssign3.vb</DependentUpon>
+    <Compile Include="frm_LAP3.Designer.vb">
+      <DependentUpon>frm_LAP3.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmAssign3.vb">
+    <Compile Include="frm_LAP3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Lap5.Designer.vb">
+      <DependentUpon>frm_Lap5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Lap5.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -114,6 +126,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frm_LAP4.resx">
+      <DependentUpon>frm_LAP4.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLap_1.resx">
       <DependentUpon>frmLap_1.vb</DependentUpon>
     </EmbeddedResource>
@@ -123,8 +138,11 @@
     <EmbeddedResource Include="Frm_LAP2.resx">
       <DependentUpon>Frm_LAP2.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmAssign3.resx">
-      <DependentUpon>frmAssign3.vb</DependentUpon>
+    <EmbeddedResource Include="frm_LAP3.resx">
+      <DependentUpon>frm_LAP3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Lap5.resx">
+      <DependentUpon>frm_Lap5.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

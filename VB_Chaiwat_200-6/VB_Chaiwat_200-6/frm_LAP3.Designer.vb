@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class frmAssign3
+Partial Class frm_LAP3
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -259,6 +259,7 @@ Partial Class frmAssign3
         Me.txtDigis.Name = "txtDigis"
         Me.txtDigis.Size = New System.Drawing.Size(528, 75)
         Me.txtDigis.TabIndex = 2
+        Me.txtDigis.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'btnHight
         '
@@ -281,7 +282,7 @@ Partial Class frmAssign3
         'cboSelect
         '
         Me.cboSelect.FormattingEnabled = True
-        Me.cboSelect.Items.AddRange(New Object() {"12", "13", "15", "16", "18", "20", "24", "26", "28", "32", "36", "40", "48", "60", "66", "72", "84"})
+        Me.cboSelect.Items.AddRange(New Object() {"10", "12", "13", "15", "16", "18", "20", "24", "26", "28", "32", "36", "40", "48", "60", "66", "72", "84"})
         Me.cboSelect.Location = New System.Drawing.Point(589, 119)
         Me.cboSelect.Name = "cboSelect"
         Me.cboSelect.Size = New System.Drawing.Size(54, 21)

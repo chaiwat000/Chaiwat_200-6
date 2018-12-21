@@ -1,6 +1,9 @@
-﻿Public Class frmAssign3
+﻿Public Class frm_LAP3
     Private Sub btnHight_Click(sender As Object, e As EventArgs) Handles btnHight.Click
-        txtDigis.Font = New Font(txtDigis.Font.FontFamily, txtDigis.Font.Size + 3, txtDigis.Font.Style)
+        Dim hight, result As Integer
+        hight = txtDigis.Text
+        result = hight + 2
+        txtDigis.Text = result
     End Sub
 
     Private Sub cboSelect_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboSelect.SelectedIndexChanged
@@ -11,7 +14,10 @@
     End Sub
 
     Private Sub btnLow_Click(sender As Object, e As EventArgs) Handles btnLow.Click
-        txtDigis.Font = New Font(txtDigis.Font.FontFamily, txtDigis.Font.Size - 3, txtDigis.Font.Style)
+        Dim hight, result As Integer
+        hight = txtDigis.Text
+        result = hight - 2
+        txtDigis.Text = result
     End Sub
 
     Private Sub lblFRed_Click(sender As Object, e As EventArgs) Handles lblFRed.Click
@@ -23,7 +29,7 @@
     End Sub
 
     Private Sub lblFGreen_Click(sender As Object, e As EventArgs) Handles lblFGreen.Click
-        txtDigis.ForeColor = Color.Green
+        txtDigis.ForeColor = Color.Lime 'เขียวอ่อน
     End Sub
 
     Private Sub lblFViolet_Click(sender As Object, e As EventArgs) Handles lblFViolet.Click
@@ -63,34 +69,34 @@
     End Sub
 
     Private Sub lblBGreen_Click(sender As Object, e As EventArgs) Handles lblBGreen.Click
-
+        txtDigis.BackColor = Color.Lime 'เขียวอ่อน
     End Sub
 
     Private Sub lblBViolet_Click(sender As Object, e As EventArgs) Handles lblBViolet.Click
-
+        txtDigis.BackColor = Color.Violet
     End Sub
 
     Private Sub lblBBlack_Click(sender As Object, e As EventArgs) Handles lblBBlack.Click
-
+        txtDigis.BackColor = Color.Black
     End Sub
 
     Private Sub lblBOrange_Click(sender As Object, e As EventArgs) Handles lblBOrange.Click
-
+        txtDigis.BackColor = Color.Orange
     End Sub
 
     Private Sub lblBYellow_Click(sender As Object, e As EventArgs) Handles lblBYellow.Click
-
+        txtDigis.BackColor = Color.Yellow
     End Sub
 
     Private Sub lblBBrown_Click(sender As Object, e As EventArgs) Handles lblBBrown.Click
-
+        txtDigis.BackColor = Color.Brown
     End Sub
 
     Private Sub lblBWhite_Click(sender As Object, e As EventArgs) Handles lblBWhite.Click
-
+        txtDigis.BackColor = Color.White
     End Sub
 
     Private Sub lblBSky_Click(sender As Object, e As EventArgs) Handles lblBSky.Click
-
+        txtDigis.BackColor = Color.SkyBlue
     End Sub
 End Class
