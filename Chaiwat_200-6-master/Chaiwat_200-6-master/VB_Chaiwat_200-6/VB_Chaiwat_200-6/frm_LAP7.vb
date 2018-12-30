@@ -19,6 +19,7 @@
         lstAdd.Items.Add(txtAdd.Text)
         txtAdd.Text = ""
         lstAdd.SelectedIndex = lstAdd.Items.Count - 1
+        txtAdd.Select()
     End Sub
 
     Private Sub btnMove_Click(sender As Object, e As EventArgs) Handles btnMove.Click
@@ -31,11 +32,11 @@
             cboOutput.Items.Add(lstAdd.SelectedItem)
 
 
-            If lstAdd.SelectedItem = lstAdd.Items.Count - 1 Then
-                lstAdd.Items.Remove(lstAdd.SelectedItem)
-                lstAdd.SelectedItem = lstAdd.Items.Count - 1
+            If lstAdd.SelectedIndex = lstAdd.Items.Count - 1 Then
+                lstAdd.Items.RemoveAt(lstAdd.SelectedIndex)
+                lstAdd.SelectedIndex = lstAdd.Items.Count - 1
             Else
-                lstAdd.Items.Remove(lstAdd.SelectedItem)
+                lstAdd.Items.RemoveAt(lstAdd.SelectedIndex)
                 lstAdd.SelectedIndex = ao
             End If
             cboOutput.SelectedIndex = cboOutput.Items.Count - 1
@@ -64,7 +65,15 @@
         Else
             lstAdd.Items.Add(cboOutput.SelectedItem)
             cboOutput.Items.Remove(cboOutput.SelectedItem)
+
+            For i As Integer = 0 To cboOutput.SelectedIndex
+                cboOutput.Items.RemoveAt(cboOutput.SelectedItem)
+            Next
+            cboOutput.Text = ""
         End If
+
+
+
 
     End Sub
 
@@ -72,11 +81,14 @@
         If cboOutput.Items.Count = 0 Then
             MessageBox.Show("ComboBox", "คำเตือน", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Else
-            Dim list As New List(Of Object)
+
             For Each item As Object In cboOutput.Items
                 lstAdd.Items.Add(item)
             Next
-            cboOutput.Items.Remove(cboOutput.SelectedItem)
+            cboOutput.Items.Clear()
+            cboOutput.Text = ""
+
+            Dim list As New List(Of Object)
             For Each item As String In list
                 lstAdd.Items.Add(item)
                 cboOutput.Items.Remove(item)
