@@ -69,12 +69,8 @@
             For i As Integer = 0 To cboOutput.SelectedIndex
                 cboOutput.Items.RemoveAt(cboOutput.SelectedItem)
             Next
-            cboOutput.Text = ""
+
         End If
-
-
-
-
     End Sub
 
     Private Sub btnBackAll_Click(sender As Object, e As EventArgs) Handles btnBackAll.Click

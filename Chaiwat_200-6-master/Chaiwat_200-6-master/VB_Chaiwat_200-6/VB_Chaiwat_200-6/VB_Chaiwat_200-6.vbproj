@@ -121,6 +121,12 @@
     <Compile Include="frm_LAP7.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frm_LAP8.Designer.vb">
+      <DependentUpon>frm_LAP8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_LAP8.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -161,6 +167,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_LAP7.resx">
       <DependentUpon>frm_LAP7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_LAP8.resx">
+      <DependentUpon>frm_LAP8.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

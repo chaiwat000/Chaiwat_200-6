@@ -35,3 +35,4 @@ D:\Chaiwat_200-6\Chaiwat_200-6-master\Chaiwat_200-6-master\VB_Chaiwat_200-6\VB_C
 D:\Chaiwat_200-6\Chaiwat_200-6-master\Chaiwat_200-6-master\VB_Chaiwat_200-6\VB_Chaiwat_200-6\obj\Debug\VB_Chaiwat_200-6.exe
 D:\Chaiwat_200-6\Chaiwat_200-6-master\Chaiwat_200-6-master\VB_Chaiwat_200-6\VB_Chaiwat_200-6\obj\Debug\VB_Chaiwat_200-6.xml
 D:\Chaiwat_200-6\Chaiwat_200-6-master\Chaiwat_200-6-master\VB_Chaiwat_200-6\VB_Chaiwat_200-6\obj\Debug\VB_Chaiwat_200-6.pdb
+D:\Chaiwat_200-6\Chaiwat_200-6-master\Chaiwat_200-6-master\VB_Chaiwat_200-6\VB_Chaiwat_200-6\obj\Debug\VB_Chaiwat_200_6.frm_LAP8.resources
