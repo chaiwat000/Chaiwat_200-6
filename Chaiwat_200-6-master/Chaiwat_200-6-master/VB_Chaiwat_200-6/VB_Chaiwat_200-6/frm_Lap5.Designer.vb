@@ -22,6 +22,7 @@ Partial Class frm_Lap5
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frm_Lap5))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -53,9 +54,10 @@ Partial Class frm_Lap5
         Me.Label1.BackColor = System.Drawing.Color.LightCoral
         Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(13, 52)
+        Me.Label1.Location = New System.Drawing.Point(17, 64)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(120, 29)
+        Me.Label1.Size = New System.Drawing.Size(160, 36)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "ชื่อสินค้า"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -65,9 +67,10 @@ Partial Class frm_Lap5
         Me.Label2.BackColor = System.Drawing.Color.LightCoral
         Me.Label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(13, 87)
+        Me.Label2.Location = New System.Drawing.Point(17, 107)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(120, 29)
+        Me.Label2.Size = New System.Drawing.Size(160, 36)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "ราคาขาย"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -77,9 +80,10 @@ Partial Class frm_Lap5
         Me.Label3.BackColor = System.Drawing.Color.LightCoral
         Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(12, 122)
+        Me.Label3.Location = New System.Drawing.Point(16, 150)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(120, 29)
+        Me.Label3.Size = New System.Drawing.Size(160, 36)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "จำนวนซื้อ"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -89,9 +93,10 @@ Partial Class frm_Lap5
         Me.Label4.BackColor = System.Drawing.Color.LightCoral
         Me.Label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(13, 157)
+        Me.Label4.Location = New System.Drawing.Point(17, 193)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(120, 29)
+        Me.Label4.Size = New System.Drawing.Size(160, 36)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "เป็นเงิน"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -100,9 +105,11 @@ Partial Class frm_Lap5
         '
         Me.gpCustomer.Controls.Add(Me.radOther)
         Me.gpCustomer.Controls.Add(Me.radMember)
-        Me.gpCustomer.Location = New System.Drawing.Point(45, 210)
+        Me.gpCustomer.Location = New System.Drawing.Point(60, 258)
+        Me.gpCustomer.Margin = New System.Windows.Forms.Padding(4)
         Me.gpCustomer.Name = "gpCustomer"
-        Me.gpCustomer.Size = New System.Drawing.Size(149, 53)
+        Me.gpCustomer.Padding = New System.Windows.Forms.Padding(4)
+        Me.gpCustomer.Size = New System.Drawing.Size(199, 65)
         Me.gpCustomer.TabIndex = 4
         Me.gpCustomer.TabStop = False
         Me.gpCustomer.Text = "ประเภทลูกค้า"
@@ -110,9 +117,10 @@ Partial Class frm_Lap5
         'radOther
         '
         Me.radOther.AutoSize = True
-        Me.radOther.Location = New System.Drawing.Point(70, 20)
+        Me.radOther.Location = New System.Drawing.Point(93, 25)
+        Me.radOther.Margin = New System.Windows.Forms.Padding(4)
         Me.radOther.Name = "radOther"
-        Me.radOther.Size = New System.Drawing.Size(76, 17)
+        Me.radOther.Size = New System.Drawing.Size(88, 21)
         Me.radOther.TabIndex = 1
         Me.radOther.TabStop = True
         Me.radOther.Text = "ลูกค้าทั่วไป"
@@ -121,9 +129,10 @@ Partial Class frm_Lap5
         'radMember
         '
         Me.radMember.AutoSize = True
-        Me.radMember.Location = New System.Drawing.Point(7, 20)
+        Me.radMember.Location = New System.Drawing.Point(9, 25)
+        Me.radMember.Margin = New System.Windows.Forms.Padding(4)
         Me.radMember.Name = "radMember"
-        Me.radMember.Size = New System.Drawing.Size(57, 17)
+        Me.radMember.Size = New System.Drawing.Size(66, 21)
         Me.radMember.TabIndex = 0
         Me.radMember.TabStop = True
         Me.radMember.Text = "สมาชิก"
@@ -133,9 +142,11 @@ Partial Class frm_Lap5
         '
         Me.gpMoney.Controls.Add(Me.radCredit)
         Me.gpMoney.Controls.Add(Me.radCash)
-        Me.gpMoney.Location = New System.Drawing.Point(219, 210)
+        Me.gpMoney.Location = New System.Drawing.Point(292, 258)
+        Me.gpMoney.Margin = New System.Windows.Forms.Padding(4)
         Me.gpMoney.Name = "gpMoney"
-        Me.gpMoney.Size = New System.Drawing.Size(116, 53)
+        Me.gpMoney.Padding = New System.Windows.Forms.Padding(4)
+        Me.gpMoney.Size = New System.Drawing.Size(155, 65)
         Me.gpMoney.TabIndex = 5
         Me.gpMoney.TabStop = False
         Me.gpMoney.Text = "การชำระเงิน"
@@ -143,9 +154,10 @@ Partial Class frm_Lap5
         'radCredit
         '
         Me.radCredit.AutoSize = True
-        Me.radCredit.Location = New System.Drawing.Point(61, 20)
+        Me.radCredit.Location = New System.Drawing.Point(81, 25)
+        Me.radCredit.Margin = New System.Windows.Forms.Padding(4)
         Me.radCredit.Name = "radCredit"
-        Me.radCredit.Size = New System.Drawing.Size(43, 17)
+        Me.radCredit.Size = New System.Drawing.Size(48, 21)
         Me.radCredit.TabIndex = 1
         Me.radCredit.TabStop = True
         Me.radCredit.Text = "เชื่อ"
@@ -154,9 +166,10 @@ Partial Class frm_Lap5
         'radCash
         '
         Me.radCash.AutoSize = True
-        Me.radCash.Location = New System.Drawing.Point(7, 20)
+        Me.radCash.Location = New System.Drawing.Point(9, 25)
+        Me.radCash.Margin = New System.Windows.Forms.Padding(4)
         Me.radCash.Name = "radCash"
-        Me.radCash.Size = New System.Drawing.Size(38, 17)
+        Me.radCash.Size = New System.Drawing.Size(44, 21)
         Me.radCash.TabIndex = 0
         Me.radCash.TabStop = True
         Me.radCash.Text = "สด"
@@ -166,9 +179,10 @@ Partial Class frm_Lap5
         '
         Me.Label5.BackColor = System.Drawing.Color.LightCoral
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(17, 336)
+        Me.Label5.Location = New System.Drawing.Point(23, 414)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(116, 28)
+        Me.Label5.Size = New System.Drawing.Size(155, 34)
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "ค้างชำระ"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -177,9 +191,10 @@ Partial Class frm_Lap5
         '
         Me.Label6.BackColor = System.Drawing.Color.LightCoral
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(16, 303)
+        Me.Label6.Location = New System.Drawing.Point(21, 373)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(116, 28)
+        Me.Label6.Size = New System.Drawing.Size(155, 34)
         Me.Label6.TabIndex = 7
         Me.Label6.Text = "จำนวนเงินที่ต้องชำระ"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -188,9 +203,10 @@ Partial Class frm_Lap5
         '
         Me.Label7.BackColor = System.Drawing.Color.LightCoral
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(16, 270)
+        Me.Label7.Location = New System.Drawing.Point(21, 332)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(116, 28)
+        Me.Label7.Size = New System.Drawing.Size(155, 34)
         Me.Label7.TabIndex = 6
         Me.Label7.Text = "ส่วนลด"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -198,66 +214,73 @@ Partial Class frm_Lap5
         'txtProduct
         '
         Me.txtProduct.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtProduct.Location = New System.Drawing.Point(175, 52)
+        Me.txtProduct.Location = New System.Drawing.Point(233, 64)
+        Me.txtProduct.Margin = New System.Windows.Forms.Padding(4)
         Me.txtProduct.Multiline = True
         Me.txtProduct.Name = "txtProduct"
-        Me.txtProduct.Size = New System.Drawing.Size(177, 29)
+        Me.txtProduct.Size = New System.Drawing.Size(235, 35)
         Me.txtProduct.TabIndex = 9
         Me.txtProduct.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtPrice
         '
         Me.txtPrice.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPrice.Location = New System.Drawing.Point(175, 87)
+        Me.txtPrice.Location = New System.Drawing.Point(233, 107)
+        Me.txtPrice.Margin = New System.Windows.Forms.Padding(4)
         Me.txtPrice.Multiline = True
         Me.txtPrice.Name = "txtPrice"
-        Me.txtPrice.Size = New System.Drawing.Size(177, 29)
+        Me.txtPrice.Size = New System.Drawing.Size(235, 35)
         Me.txtPrice.TabIndex = 10
         Me.txtPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtUnit
         '
         Me.txtUnit.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtUnit.Location = New System.Drawing.Point(175, 122)
+        Me.txtUnit.Location = New System.Drawing.Point(233, 150)
+        Me.txtUnit.Margin = New System.Windows.Forms.Padding(4)
         Me.txtUnit.Multiline = True
         Me.txtUnit.Name = "txtUnit"
-        Me.txtUnit.Size = New System.Drawing.Size(177, 29)
+        Me.txtUnit.Size = New System.Drawing.Size(235, 35)
         Me.txtUnit.TabIndex = 11
         Me.txtUnit.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'lblTotal
         '
         Me.lblTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblTotal.Location = New System.Drawing.Point(175, 158)
+        Me.lblTotal.Location = New System.Drawing.Point(233, 194)
+        Me.lblTotal.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblTotal.Name = "lblTotal"
-        Me.lblTotal.Size = New System.Drawing.Size(177, 28)
+        Me.lblTotal.Size = New System.Drawing.Size(235, 34)
         Me.lblTotal.TabIndex = 12
         Me.lblTotal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'lblDiscount
         '
         Me.lblDiscount.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblDiscount.Location = New System.Drawing.Point(175, 270)
+        Me.lblDiscount.Location = New System.Drawing.Point(233, 332)
+        Me.lblDiscount.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblDiscount.Name = "lblDiscount"
-        Me.lblDiscount.Size = New System.Drawing.Size(177, 28)
+        Me.lblDiscount.Size = New System.Drawing.Size(235, 34)
         Me.lblDiscount.TabIndex = 13
         Me.lblDiscount.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'lblPaide
         '
         Me.lblPaide.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblPaide.Location = New System.Drawing.Point(175, 303)
+        Me.lblPaide.Location = New System.Drawing.Point(233, 373)
+        Me.lblPaide.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblPaide.Name = "lblPaide"
-        Me.lblPaide.Size = New System.Drawing.Size(177, 28)
+        Me.lblPaide.Size = New System.Drawing.Size(235, 34)
         Me.lblPaide.TabIndex = 14
         Me.lblPaide.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'lblCredit
         '
         Me.lblCredit.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblCredit.Location = New System.Drawing.Point(175, 335)
+        Me.lblCredit.Location = New System.Drawing.Point(233, 412)
+        Me.lblCredit.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblCredit.Name = "lblCredit"
-        Me.lblCredit.Size = New System.Drawing.Size(177, 28)
+        Me.lblCredit.Size = New System.Drawing.Size(235, 34)
         Me.lblCredit.TabIndex = 15
         Me.lblCredit.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
@@ -266,9 +289,10 @@ Partial Class frm_Lap5
         Me.btnCalculater.BackColor = System.Drawing.Color.LawnGreen
         Me.btnCalculater.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnCalculater.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCalculater.Location = New System.Drawing.Point(175, 366)
+        Me.btnCalculater.Location = New System.Drawing.Point(233, 450)
+        Me.btnCalculater.Margin = New System.Windows.Forms.Padding(4)
         Me.btnCalculater.Name = "btnCalculater"
-        Me.btnCalculater.Size = New System.Drawing.Size(177, 40)
+        Me.btnCalculater.Size = New System.Drawing.Size(236, 49)
         Me.btnCalculater.TabIndex = 16
         Me.btnCalculater.Text = "คำนวณ"
         Me.btnCalculater.UseVisualStyleBackColor = False
@@ -280,17 +304,18 @@ Partial Class frm_Lap5
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Label8.Location = New System.Drawing.Point(0, 0)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(386, 35)
+        Me.Label8.Size = New System.Drawing.Size(515, 43)
         Me.Label8.TabIndex = 17
         Me.Label8.Text = "โปแรกมคำนวณการขาย"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'frm_Lap5
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(386, 418)
+        Me.ClientSize = New System.Drawing.Size(515, 514)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.btnCalculater)
         Me.Controls.Add(Me.lblCredit)
@@ -310,7 +335,10 @@ Partial Class frm_Lap5
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frm_Lap5"
+        Me.ShowInTaskbar = False
         Me.Text = "frm_Lap5"
         Me.gpCustomer.ResumeLayout(False)
         Me.gpCustomer.PerformLayout()

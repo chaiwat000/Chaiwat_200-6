@@ -22,5 +22,60 @@ VB_Chaiwat_200-6
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:VB_Chaiwat_200_6.My.Resources.Resources.developer_3461405_1280">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:VB_Chaiwat_200_6.My.Resources.Resources.icons8_Books_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:VB_Chaiwat_200_6.My.Resources.Resources.icons8_Contacts_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:VB_Chaiwat_200_6.My.Resources.Resources.icons8_Document_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:VB_Chaiwat_200_6.My.Resources.Resources.icons8_Edit_Property_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:VB_Chaiwat_200_6.My.Resources.Resources.icons8_Exit_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:VB_Chaiwat_200_6.My.Resources.Resources.icons8_Exit_48px_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:VB_Chaiwat_200_6.My.Resources.Resources.icons8_Graduation_Cap_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:VB_Chaiwat_200_6.My.Resources.Resources.icons8_Literature_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:VB_Chaiwat_200_6.My.Resources.Resources.icons8_Open_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:VB_Chaiwat_200_6.My.Resources.Resources.icons8_Settings_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>

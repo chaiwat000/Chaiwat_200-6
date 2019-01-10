@@ -22,6 +22,7 @@ Partial Class Frm_LAP1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Frm_LAP1))
         Me.btnCalculate = New System.Windows.Forms.Button()
         Me.btnClose = New System.Windows.Forms.Button()
         Me.txtSalary = New System.Windows.Forms.TextBox()
@@ -58,7 +59,7 @@ Partial Class Frm_LAP1
         '
         Me.txtSalary.Location = New System.Drawing.Point(171, 54)
         Me.txtSalary.Name = "txtSalary"
-        Me.txtSalary.Size = New System.Drawing.Size(137, 28)
+        Me.txtSalary.Size = New System.Drawing.Size(137, 33)
         Me.txtSalary.TabIndex = 2
         Me.txtSalary.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -67,7 +68,7 @@ Partial Class Frm_LAP1
         Me.lblMoneyYear.AutoSize = True
         Me.lblMoneyYear.Location = New System.Drawing.Point(13, 92)
         Me.lblMoneyYear.Name = "lblMoneyYear"
-        Me.lblMoneyYear.Size = New System.Drawing.Size(85, 22)
+        Me.lblMoneyYear.Size = New System.Drawing.Size(102, 27)
         Me.lblMoneyYear.TabIndex = 3
         Me.lblMoneyYear.Text = "เงินประจำปี"
         '
@@ -76,7 +77,7 @@ Partial Class Frm_LAP1
         Me.lblTax.AutoSize = True
         Me.lblTax.Location = New System.Drawing.Point(12, 126)
         Me.lblTax.Name = "lblTax"
-        Me.lblTax.Size = New System.Drawing.Size(40, 22)
+        Me.lblTax.Size = New System.Drawing.Size(47, 27)
         Me.lblTax.TabIndex = 4
         Me.lblTax.Text = "ภาษี"
         '
@@ -85,7 +86,7 @@ Partial Class Frm_LAP1
         Me.lblTotal.AutoSize = True
         Me.lblTotal.Location = New System.Drawing.Point(12, 159)
         Me.lblTotal.Name = "lblTotal"
-        Me.lblTotal.Size = New System.Drawing.Size(63, 22)
+        Me.lblTotal.Size = New System.Drawing.Size(76, 27)
         Me.lblTotal.TabIndex = 5
         Me.lblTotal.Text = "เงินสุทธิ"
         '
@@ -106,13 +107,13 @@ Partial Class Frm_LAP1
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(41, 57)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(124, 22)
+        Me.Label2.Size = New System.Drawing.Size(154, 27)
         Me.Label2.TabIndex = 7
         Me.Label2.Text = "Input Salary ="
         '
         'Frm_LAP1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 22.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(13.0!, 27.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(367, 269)
         Me.Controls.Add(Me.Label2)
@@ -125,9 +126,11 @@ Partial Class Frm_LAP1
         Me.Controls.Add(Me.btnCalculate)
         Me.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(5)
         Me.Name = "Frm_LAP1"
+        Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "โปรแกรมคำนวณ"
         Me.ResumeLayout(False)
