@@ -5,7 +5,7 @@
     Dim credit As Decimal
     Private Sub btnAdd_Click(sender As Object, e As EventArgs) Handles btnAdd.Click
         Dim grade As String
-        Dim cal As String
+
 
         txtSubject.Text = txtSubject.Text.Trim()
         txtScore.Text = txtScore.Text.Trim()

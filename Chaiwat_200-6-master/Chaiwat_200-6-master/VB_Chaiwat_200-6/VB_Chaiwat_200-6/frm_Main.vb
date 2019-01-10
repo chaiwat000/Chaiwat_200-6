@@ -46,7 +46,7 @@
     End Sub
 
     Private Sub ใบงานท8ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ใบงานท8ToolStripMenuItem.Click
-        Dim frm8 As frm_LAP8
+        Dim frm8 As New frm_LAP8
         frm8.ShowDialog()
     End Sub
 End Class
