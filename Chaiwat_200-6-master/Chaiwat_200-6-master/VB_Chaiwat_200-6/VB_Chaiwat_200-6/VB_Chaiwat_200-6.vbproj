@@ -253,5 +253,17 @@
   <ItemGroup>
     <None Include="Resources\icons8_Microsoft_Excel_48px.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Create_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Open_in_Browser_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_User_Manual_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Paper_48px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
