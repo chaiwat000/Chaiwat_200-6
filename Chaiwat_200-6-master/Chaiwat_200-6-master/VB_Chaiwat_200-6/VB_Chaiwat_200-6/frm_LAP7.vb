@@ -64,12 +64,22 @@
             MessageBox.Show("ComboBox ต้องไม่เป็นค่าว่าง", "คำเตือน", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Else
             lstAdd.Items.Add(cboOutput.SelectedItem)
-            cboOutput.Items.Remove(cboOutput.SelectedItem)
+            Dim n = cboOutput.SelectedIndex
 
-            For i As Integer = 0 To cboOutput.SelectedIndex
-                cboOutput.Items.RemoveAt(cboOutput.SelectedItem)
-            Next
+            If cboOutput.SelectedIndex = cboOutput.Items.Count - 1 Then
+                cboOutput.Items.RemoveAt(cboOutput.SelectedIndex)
+                cboOutput.SelectedIndex = cboOutput.Items.Count - 1
+            Else
+                cboOutput.Items.RemoveAt(cboOutput.SelectedIndex)
+                cboOutput.SelectedIndex = n
+            End If
+            lstAdd.SelectedIndex = lstAdd.Items.Count - 1
 
+        End If
+
+        If cboOutput.Items.Count = 0 Then
+            cboOutput.Text = ""
+            lblOutput.Text = ""
         End If
     End Sub
 

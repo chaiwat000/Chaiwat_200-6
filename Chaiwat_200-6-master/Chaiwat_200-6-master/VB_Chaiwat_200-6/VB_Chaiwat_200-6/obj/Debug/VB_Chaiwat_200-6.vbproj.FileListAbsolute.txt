@@ -37,3 +37,5 @@ D:\Chaiwat_200-6\Chaiwat_200-6-master\Chaiwat_200-6-master\VB_Chaiwat_200-6\VB_C
 D:\Chaiwat_200-6\Chaiwat_200-6-master\Chaiwat_200-6-master\VB_Chaiwat_200-6\VB_Chaiwat_200-6\obj\Debug\VB_Chaiwat_200-6.pdb
 D:\Chaiwat_200-6\Chaiwat_200-6-master\Chaiwat_200-6-master\VB_Chaiwat_200-6\VB_Chaiwat_200-6\obj\Debug\VB_Chaiwat_200_6.frm_LAP8.resources
 D:\Chaiwat_200-6\Chaiwat_200-6-master\Chaiwat_200-6-master\VB_Chaiwat_200-6\VB_Chaiwat_200-6\obj\Debug\VB_Chaiwat_200_6.frm_Main.resources
+D:\Chaiwat_200-6\Chaiwat_200-6-master\Chaiwat_200-6-master\VB_Chaiwat_200-6\VB_Chaiwat_200-6\obj\Debug\VB_Chaiwat_200_6.frm_LAP10.resources
+D:\Chaiwat_200-6\Chaiwat_200-6-master\Chaiwat_200-6-master\VB_Chaiwat_200-6\VB_Chaiwat_200-6\obj\Debug\VB_Chaiwat_200_6.VB_Mid.resources

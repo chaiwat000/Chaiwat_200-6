@@ -49,4 +49,14 @@
         Dim frm8 As New frm_LAP8
         frm8.ShowDialog()
     End Sub
+
+    Private Sub ใบงานท10ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ใบงานท10ToolStripMenuItem.Click
+        Dim frm10 As New frm_LAP10
+        frm10.ShowDialog()
+    End Sub
+
+    Private Sub สอบปฏบตToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles สอบปฏบตToolStripMenuItem.Click
+        Dim vbm As New VB_Mid
+        vbm.ShowDialog()
+    End Sub
 End Class
