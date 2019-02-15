@@ -59,4 +59,9 @@
         Dim vbm As New VB_Mid
         vbm.ShowDialog()
     End Sub
+
+    Private Sub ใบงานท11ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ใบงานท11ToolStripMenuItem.Click
+        Dim frm11 As New frm_LAP11
+        frm_LAP11.ShowDialog()
+    End Sub
 End Class

@@ -511,7 +511,9 @@ Partial Class VB_Mid
         Me.Controls.Add(Me.Label1)
         Me.Name = "VB_Mid"
         Me.ShowInTaskbar = False
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "VB_Mid"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
