@@ -25,8 +25,6 @@ Partial Class frm_Main
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frm_Main))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ใบงานToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ใบงานท1ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -53,6 +51,8 @@ Partial Class frm_Main
         Me.สอบปฏบตToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SystemToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ออกจาระบบToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -79,30 +79,6 @@ Partial Class frm_Main
         Me.MenuStrip1.Size = New System.Drawing.Size(800, 28)
         Me.MenuStrip1.TabIndex = 1
         Me.MenuStrip1.Text = "MenuStrip1"
-        '
-        'Label2
-        '
-        Me.Label2.BackColor = System.Drawing.Color.Salmon
-        Me.Label2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label2.Location = New System.Drawing.Point(0, 99)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(800, 38)
-        Me.Label2.TabIndex = 3
-        Me.Label2.Text = "นายชัยวัฒน์  เงินขาว BIS 2N2 60342110200-6"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PictureBox1.Image = Global.VB_Chaiwat_200_6.My.Resources.Resources.developer_3461405_1280
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 99)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(800, 426)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 2
-        Me.PictureBox1.TabStop = False
         '
         'ToolStripMenuItem1
         '
@@ -224,56 +200,56 @@ Partial Class frm_Main
         '
         Me.แบบฝกท1ToolStripMenuItem.Image = Global.VB_Chaiwat_200_6.My.Resources.Resources.icons8_Literature_48px
         Me.แบบฝกท1ToolStripMenuItem.Name = "แบบฝกท1ToolStripMenuItem"
-        Me.แบบฝกท1ToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
+        Me.แบบฝกท1ToolStripMenuItem.Size = New System.Drawing.Size(144, 26)
         Me.แบบฝกท1ToolStripMenuItem.Text = "แบบฝึกที่1"
         '
         'แบบฝกท2ToolStripMenuItem
         '
         Me.แบบฝกท2ToolStripMenuItem.Image = Global.VB_Chaiwat_200_6.My.Resources.Resources.icons8_Literature_48px
         Me.แบบฝกท2ToolStripMenuItem.Name = "แบบฝกท2ToolStripMenuItem"
-        Me.แบบฝกท2ToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
+        Me.แบบฝกท2ToolStripMenuItem.Size = New System.Drawing.Size(144, 26)
         Me.แบบฝกท2ToolStripMenuItem.Text = "แบบฝึกที่2"
         '
         'แบบฝกท3ToolStripMenuItem
         '
         Me.แบบฝกท3ToolStripMenuItem.Image = Global.VB_Chaiwat_200_6.My.Resources.Resources.icons8_Literature_48px
         Me.แบบฝกท3ToolStripMenuItem.Name = "แบบฝกท3ToolStripMenuItem"
-        Me.แบบฝกท3ToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
+        Me.แบบฝกท3ToolStripMenuItem.Size = New System.Drawing.Size(144, 26)
         Me.แบบฝกท3ToolStripMenuItem.Text = "แบบฝึกที่3"
         '
         'แบบฝกท4ToolStripMenuItem
         '
         Me.แบบฝกท4ToolStripMenuItem.Image = Global.VB_Chaiwat_200_6.My.Resources.Resources.icons8_Literature_48px
         Me.แบบฝกท4ToolStripMenuItem.Name = "แบบฝกท4ToolStripMenuItem"
-        Me.แบบฝกท4ToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
+        Me.แบบฝกท4ToolStripMenuItem.Size = New System.Drawing.Size(144, 26)
         Me.แบบฝกท4ToolStripMenuItem.Text = "แบบฝึกที่4"
         '
         'แบบฝกท5ToolStripMenuItem
         '
         Me.แบบฝกท5ToolStripMenuItem.Image = Global.VB_Chaiwat_200_6.My.Resources.Resources.icons8_Literature_48px
         Me.แบบฝกท5ToolStripMenuItem.Name = "แบบฝกท5ToolStripMenuItem"
-        Me.แบบฝกท5ToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
+        Me.แบบฝกท5ToolStripMenuItem.Size = New System.Drawing.Size(144, 26)
         Me.แบบฝกท5ToolStripMenuItem.Text = "แบบฝึกที่5"
         '
         'แบบฝกท6ToolStripMenuItem
         '
         Me.แบบฝกท6ToolStripMenuItem.Image = Global.VB_Chaiwat_200_6.My.Resources.Resources.icons8_Literature_48px
         Me.แบบฝกท6ToolStripMenuItem.Name = "แบบฝกท6ToolStripMenuItem"
-        Me.แบบฝกท6ToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
+        Me.แบบฝกท6ToolStripMenuItem.Size = New System.Drawing.Size(144, 26)
         Me.แบบฝกท6ToolStripMenuItem.Text = "แบบฝึกที่6"
         '
         'แบบฝกท7ToolStripMenuItem
         '
         Me.แบบฝกท7ToolStripMenuItem.Image = Global.VB_Chaiwat_200_6.My.Resources.Resources.icons8_Literature_48px
         Me.แบบฝกท7ToolStripMenuItem.Name = "แบบฝกท7ToolStripMenuItem"
-        Me.แบบฝกท7ToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
+        Me.แบบฝกท7ToolStripMenuItem.Size = New System.Drawing.Size(144, 26)
         Me.แบบฝกท7ToolStripMenuItem.Text = "แบบฝึกที่7"
         '
         'แบบฝกท8ToolStripMenuItem
         '
         Me.แบบฝกท8ToolStripMenuItem.Image = Global.VB_Chaiwat_200_6.My.Resources.Resources.icons8_Literature_48px
         Me.แบบฝกท8ToolStripMenuItem.Name = "แบบฝกท8ToolStripMenuItem"
-        Me.แบบฝกท8ToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
+        Me.แบบฝกท8ToolStripMenuItem.Size = New System.Drawing.Size(144, 26)
         Me.แบบฝกท8ToolStripMenuItem.Text = "แบบฝึกที่8"
         '
         'สอบปฏบตToolStripMenuItem
@@ -296,6 +272,30 @@ Partial Class frm_Main
         Me.ออกจาระบบToolStripMenuItem.Name = "ออกจาระบบToolStripMenuItem"
         Me.ออกจาระบบToolStripMenuItem.Size = New System.Drawing.Size(162, 26)
         Me.ออกจาระบบToolStripMenuItem.Text = "ออกจากระบบ"
+        '
+        'Label2
+        '
+        Me.Label2.BackColor = System.Drawing.Color.Salmon
+        Me.Label2.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label2.Location = New System.Drawing.Point(0, 99)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(800, 38)
+        Me.Label2.TabIndex = 3
+        Me.Label2.Text = "นายชัยวัฒน์  เงินขาว BIS 2N2 60342110200-6"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PictureBox1.Image = Global.VB_Chaiwat_200_6.My.Resources.Resources.developer_3461405_1280
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 99)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(800, 426)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 2
+        Me.PictureBox1.TabStop = False
         '
         'frm_Main
         '

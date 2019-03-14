@@ -85,6 +85,12 @@
     <Compile Include="frm_LAP11.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frm_LAP12.Designer.vb">
+      <DependentUpon>frm_LAP12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_LAP12.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frm_LAP4.Designer.vb">
       <DependentUpon>frm_LAP4.vb</DependentUpon>
     </Compile>
@@ -179,6 +185,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_LAP11.resx">
       <DependentUpon>frm_LAP11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_LAP12.resx">
+      <DependentUpon>frm_LAP12.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_LAP4.resx">
       <DependentUpon>frm_LAP4.vb</DependentUpon>

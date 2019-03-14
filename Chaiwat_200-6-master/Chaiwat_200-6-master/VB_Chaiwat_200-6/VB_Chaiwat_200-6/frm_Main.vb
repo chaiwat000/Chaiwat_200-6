@@ -64,4 +64,9 @@
         Dim frm11 As New frm_LAP11
         frm_LAP11.ShowDialog()
     End Sub
+
+    Private Sub ใบงานท12ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ใบงานท12ToolStripMenuItem.Click
+        Dim frm12 As New frm_LAP12
+        frm_LAP12.ShowDialog()
+    End Sub
 End Class
